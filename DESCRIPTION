@@ -1,0 +1,23 @@
+Package: WeaverTools
+Type: Package
+Title: Collection of functions to handle sparrow weaver project data
+Version: 0.1.0.9003
+Author: Pablo Capilla-Lasheras
+Maintainer: Pablo Capilla-Lasheras <pacapilla@gmail.com>
+Description: A number of functions to handle white-browed sparrow weaver data.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.4.0), 
+    base, 
+    stats
+Imports: data.table,
+    dplyr,
+    magrittr,
+    lme4,
+    lubridate,  
+    utils  
+LazyData: true
+RoxygenNote: 6.0.1
+
+
+  

@@ -1,0 +1,35 @@
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+
+# WeaverTools
+
+This is a collection of R functions employed to handle data from the white-browed sparrow weaver project 
+(find more information about the project here: 
+[White-browed sparrow weaver Project](http://www.animalsocieties.org/The_Sparrow_Weaver_Project.html)).
+
+Some functions are mostly only applicable to project specific tables. However, I also include functions for
+general data handling (e.g. visualisation of statistical results). In some cases, `WeaverTools` gathers on-line
+resources, always acknowleding the source of the information. Please, be aware that licenses and use restrictions
+<<<<<<< HEAD
+may change depending on the function.
+=======
+may change depending on the functions.
+>>>>>>> 27d1f83b73cfcec38760edcf5110b1721f5571e4
+
+# List of function
+
+* Functions for sparrow weaver data tables
+  + `wbsw_gc`: it calculates group size for a given territory in a given time interval
+
+* General functions
+  + `d_centering`: function to perform wihtin-subject centering as described in [van de Pol & Wright (2009)](http://10.1016/j.anbehav.2008.11.006)
+  + `modelInt_predict`: function to calculate prediction intervals for mixed models based on bootstrapping.
+
+
+# How to install `WeaverTools`
+```{r, echo = TRUE}
+install.packages('devtools') # install devtools
+devtools::install_github("PabloCapilla/WeaverTools") # download from GitHub
+```
+
+See function documentation to find out how to use them.
