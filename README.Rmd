@@ -10,11 +10,7 @@ This is a collection of R functions employed to handle data from the white-browe
 Some functions are mostly only applicable to project specific tables. However, I also include functions for
 general data handling (e.g. visualisation of statistical results). In some cases, `WeaverTools` gathers on-line
 resources, always acknowleding the source of the information. Please, be aware that licenses and use restrictions
-<<<<<<< HEAD
 may change depending on the function.
-=======
-may change depending on the functions.
->>>>>>> 27d1f83b73cfcec38760edcf5110b1721f5571e4
 
 # List of function
 
