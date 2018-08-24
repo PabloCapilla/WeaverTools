@@ -73,7 +73,8 @@ wbsw_gc <- function (Careers,
                             groupSizeFemale = as.numeric(NA),
                             groupSizeUnk = as.numeric(NA),
                             RecentFledglings = as.numeric(NA),
-                            SeasonFledglings = as.numeric(NA))
+                            SeasonFledglings = as.numeric(NA),
+                            logic = NA)
 
 
     for(t in 1:nrow(sample_df)){

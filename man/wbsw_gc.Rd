@@ -5,7 +5,7 @@
 \title{Calculate group composition using, the most famous, Careers table.}
 \usage{
 wbsw_gc(Careers, career_startDate, career_endDate, career_birdID, career_season,
-  season, group, interval, all_birds, maturationTime)
+  season, group, interval, all_birds, maturationTime, time_steps)
 }
 \arguments{
 \item{Careers}{name of the sparrow weaver project careers table loaded in R}
@@ -22,11 +22,13 @@ wbsw_gc(Careers, career_startDate, career_endDate, career_birdID, career_season,
 
 \item{group}{group name for group composition calculation}
 
-\item{interval}{vector of length 2. Each element follwing format = "%Y-%m-%d". The first element corresponds to the start date of the interval}
+\item{interval}{vector of length 2. Each element follwing format = %Y-%m-%d. The first element corresponds to the start date of the interval}
 
 \item{all_birds}{name of the All Birds table loaded in R}
 
 \item{maturationTime}{Number of days a bird is considered as a fledgling after hatching. It serves to count birds inthe first days of life}
+
+\item{time_steps}{number of intervals to divide period of gc calculations}
 }
 \value{
 A vector with the following information
