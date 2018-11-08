@@ -31,16 +31,14 @@ modelInt_predict <- function(model, df, n_sim = 100, prob = 0.95, cluster = NULL
                       nsim=n_sim,
                       FUN=predFun,
                       seed=101,
-                      type = "parametric",
-                      PBargs = list(style=3)) # bootMer
+                      PBargs = list(style=3), ...) # bootMer
   } else {
     bb <- lme4::bootMer(x = model,
                         nsim=n_sim,
                         FUN=predFun,
                         seed=101,
-                        type = "parametric",
                         PBargs = list(style=3),
-                        cl = cluster_name) # bootMer
+                        cl = cluster_name, ...) # bootMer
   }
   # store and manipulate results
   boot_rep <- dplyr::tbl_df(data.frame(bb$t))

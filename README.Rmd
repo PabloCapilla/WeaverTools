@@ -1,6 +1,3 @@
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-
 # WeaverTools
 
 This is a collection of R functions employed to handle data from the white-browed sparrow weaver project 

@@ -25,7 +25,7 @@ d_centering <- function(data,
   store_data <- base::list(NA)
 
   pbar <- utils::txtProgressBar(min = 1,
-                                max = nrow(mean_df),
+                                max = base::nrow(mean_df),
                                 style = 3)
 
   for (n in 1:base::nrow(mean_df)){
