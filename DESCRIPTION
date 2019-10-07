@@ -11,13 +11,11 @@ Depends: R (>= 3.4.0),
     base, 
     stats
 Imports: data.table,
+    boot,
     dplyr,
     magrittr,
     lme4,
     lubridate,  
     utils  
 LazyData: true
-RoxygenNote: 6.0.1
-
-
-  
+RoxygenNote: 6.1.1

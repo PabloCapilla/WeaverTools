@@ -20,7 +20,7 @@ may change depending on the function.
 
 
 # How to install `WeaverTools`
-```{r, echo = TRUE}
+```{r, echo = TRUE, eval = FALSE}
 install.packages('devtools') # install devtools
 devtools::install_github("PabloCapilla/WeaverTools") # download from GitHub
 ```
