@@ -109,8 +109,8 @@ wbsw_gc <- function (Careers,
                                               as.character(all_birds$Start.Date),
                                               as.character(all_birds$z.Start.Date))
 
-          all_birds$start_inPop <- lubridate::dmy(all_birds$z.Start.Date_OK) +
-            (lubridate::dmy(all_birds$Start.Date) - lubridate::dmy(all_birds$z.Start.Date_OK))
+          all_birds$start_inPop <- lubridate::ymd(all_birds$z.Start.Date_OK) +
+            (lubridate::ymd(all_birds$Start.Date) - lubridate::ymd(all_birds$z.Start.Date_OK))
           to_join <- all_birds[, base::c(career_birdID,
                                          "start_inPop")]
           to_join$BIRD.ID <- base::as.character(to_join$BIRD.ID)
